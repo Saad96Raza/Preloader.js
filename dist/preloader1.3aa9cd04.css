@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    --progressWidth: 10%;
+    --progressBg: #020001;
+}
+
+.preloader{
+    width: 100%;
+    height: 100vh; 
+    background: #e93826;
+    overflow: hidden;
+   
+    
+}
+
+.progress{
+    width:var(--progressWidth);
+    height: 130px;
+    position: relative;
+    background:var(--progressBg);
+    
+    
+    
+}
+
+.progressTitle{
+    font-size: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*# sourceMappingURL=/preloader1.3aa9cd04.css.map */

@@ -1,2 +1,2 @@
 # Preloader.js
-preloader animations liberary
+preloader is javascript animation liberary for rendering the cool animations before page load.

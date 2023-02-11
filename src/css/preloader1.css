@@ -16,13 +16,14 @@
     height: 100vh; 
     background: #e93826;
     overflow: hidden;
+    transition: all  cubic-bezier(0.25, 0.1, 0.25, 1) 1s;
    
     
 }
 
 .progress{
     width:var(--progressWidth);
-    height: 130px;
+    height: 150px;
     position: relative;
     background:var(--progressBg);
     

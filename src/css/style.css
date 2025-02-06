@@ -4,3 +4,9 @@
     box-sizing: border-box;
 }
 
+
+@font-face {
+    font-family: 'Haas';
+    text-transform: capitalize;
+    src: url('../fonts/NeueHaasDisplayRoman.ttf') format('opentype');
+}

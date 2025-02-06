@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --progressWidth: 0;
+  --progressBg: #020001;
+}
+
+.preloader {
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  background: #e93826;
+  transition: all 1.2s cubic-bezier(1, 0, 0, 1);
+  position: absolute;
+  inset: 0;
+}
+
+.progress {
+  width: var(--progressWidth);
+  height: 150px;
+  background: var(--progressBg);
+  position: relative;
+}
+
+.progressTitle {
+  font-family: Haas;
+  font-size: 250px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  text-transform: capitalize;
+  justify-content: center;
+  align-items: center;
+  font-family: Haas;
+  font-size: 100px;
+  font-weight: 100;
+  display: flex;
+  overflow: hidden;
+}
+
+.container h1 {
+  opacity: 0;
+  transition: all 2s .6s;
+  transform: translateY(80px);
+}
+
+/*# sourceMappingURL=index.830dc1ae.css.map */

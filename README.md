@@ -1,2 +1,2 @@
 # Preloader.js
-preloader is javascript animation liberary for rendering the cool animations before page load.
+A JavaScript animation library designed to render cool animations before a page fully loads.
